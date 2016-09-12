@@ -7,21 +7,73 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		982EC1D01D87643C0051833E /* Starscream.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 982EC1C31D87640E0051833E /* Starscream.framework */; };
 		B6EE1B5C1C65BCA900B0D6ED /* Response.swift in Sources */ = {isa = PBXBuildFile; fileRef = B6EE1B5B1C65BCA800B0D6ED /* Response.swift */; };
 		B6FA23AD1C63661400AF0893 /* PhoenixWebSocket.h in Headers */ = {isa = PBXBuildFile; fileRef = B6FA23AC1C63661400AF0893 /* PhoenixWebSocket.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		B6FA23BC1C63666100AF0893 /* Socket.swift in Sources */ = {isa = PBXBuildFile; fileRef = B6FA23BB1C63666100AF0893 /* Socket.swift */; };
-		B6FA23BE1C6366E600AF0893 /* Starscream.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B6FA23BD1C6366E600AF0893 /* Starscream.framework */; };
 		B6FA23C21C63689A00AF0893 /* Message.swift in Sources */ = {isa = PBXBuildFile; fileRef = B6FA23C11C63689A00AF0893 /* Message.swift */; };
 		B6FA23C41C63700900AF0893 /* Channel.swift in Sources */ = {isa = PBXBuildFile; fileRef = B6FA23C31C63700900AF0893 /* Channel.swift */; };
 /* End PBXBuildFile section */
 
+/* Begin PBXContainerItemProxy section */
+		982EC1C21D87640E0051833E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 982EC1B91D87640E0051833E /* Starscream.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 6B3E79E619D48B7F006071F7;
+			remoteInfo = "Starscream iOS";
+		};
+		982EC1C41D87640E0051833E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 982EC1B91D87640E0051833E /* Starscream.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 6B3E79F119D48B7F006071F7;
+			remoteInfo = "Starscream iOSTests";
+		};
+		982EC1C61D87640E0051833E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 982EC1B91D87640E0051833E /* Starscream.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = D9C3E35F19E48FF1009FC285;
+			remoteInfo = "Starscream OSX";
+		};
+		982EC1C81D87640E0051833E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 982EC1B91D87640E0051833E /* Starscream.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = D9C3E36919E48FF1009FC285;
+			remoteInfo = "Starscream OSXTests";
+		};
+		982EC1CA1D87640E0051833E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 982EC1B91D87640E0051833E /* Starscream.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 091277971BD673A70003036D;
+			remoteInfo = "Starscream tvOS";
+		};
+		982EC1CC1D87640E0051833E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 982EC1B91D87640E0051833E /* Starscream.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 091277A01BD673A70003036D;
+			remoteInfo = "Starscream tvOSTests";
+		};
+		982EC1CE1D87642E0051833E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 982EC1B91D87640E0051833E /* Starscream.xcodeproj */;
+			proxyType = 1;
+			remoteGlobalIDString = 6B3E79E519D48B7F006071F7;
+			remoteInfo = "Starscream iOS";
+		};
+/* End PBXContainerItemProxy section */
+
 /* Begin PBXFileReference section */
+		982EC1B91D87640E0051833E /* Starscream.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = Starscream.xcodeproj; path = Carthage/Checkouts/Starscream/Starscream.xcodeproj; sourceTree = "<group>"; };
 		B6EE1B5B1C65BCA800B0D6ED /* Response.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Response.swift; sourceTree = "<group>"; };
 		B6FA23A91C63661400AF0893 /* PhoenixWebSocket.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = PhoenixWebSocket.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		B6FA23AC1C63661400AF0893 /* PhoenixWebSocket.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PhoenixWebSocket.h; sourceTree = "<group>"; };
 		B6FA23AE1C63661400AF0893 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		B6FA23BB1C63666100AF0893 /* Socket.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Socket.swift; sourceTree = "<group>"; };
-		B6FA23BD1C6366E600AF0893 /* Starscream.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Starscream.framework; path = Carthage/Build/iOS/Starscream.framework; sourceTree = "<group>"; };
 		B6FA23C11C63689A00AF0893 /* Message.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Message.swift; sourceTree = "<group>"; };
 		B6FA23C31C63700900AF0893 /* Channel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Channel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -31,17 +83,30 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				B6FA23BE1C6366E600AF0893 /* Starscream.framework in Frameworks */,
+				982EC1D01D87643C0051833E /* Starscream.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		982EC1BA1D87640E0051833E /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				982EC1C31D87640E0051833E /* Starscream.framework */,
+				982EC1C51D87640E0051833E /* Starscream iOSTests.xctest */,
+				982EC1C71D87640E0051833E /* Starscream.framework */,
+				982EC1C91D87640E0051833E /* Starscream OSXTests.xctest */,
+				982EC1CB1D87640E0051833E /* Starscream.framework */,
+				982EC1CD1D87640E0051833E /* Starscream tvOSTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
 		B6FA239F1C63661300AF0893 = {
 			isa = PBXGroup;
 			children = (
-				B6FA23BD1C6366E600AF0893 /* Starscream.framework */,
+				982EC1B91D87640E0051833E /* Starscream.xcodeproj */,
 				B6FA23AB1C63661400AF0893 /* PhoenixWebSocket */,
 				B6FA23AA1C63661400AF0893 /* Products */,
 			);
@@ -94,6 +159,7 @@
 			buildRules = (
 			);
 			dependencies = (
+				982EC1CF1D87642E0051833E /* PBXTargetDependency */,
 			);
 			name = PhoenixWebSocket;
 			productName = PhoenixWebSocket;
@@ -111,6 +177,7 @@
 				TargetAttributes = {
 					B6FA23A81C63661400AF0893 = {
 						CreatedOnToolsVersion = 7.2;
+						LastSwiftMigration = 0800;
 					};
 				};
 			};
@@ -124,12 +191,63 @@
 			mainGroup = B6FA239F1C63661300AF0893;
 			productRefGroup = B6FA23AA1C63661400AF0893 /* Products */;
 			projectDirPath = "";
+			projectReferences = (
+				{
+					ProductGroup = 982EC1BA1D87640E0051833E /* Products */;
+					ProjectRef = 982EC1B91D87640E0051833E /* Starscream.xcodeproj */;
+				},
+			);
 			projectRoot = "";
 			targets = (
 				B6FA23A81C63661400AF0893 /* PhoenixWebSocket */,
 			);
 		};
 /* End PBXProject section */
+
+/* Begin PBXReferenceProxy section */
+		982EC1C31D87640E0051833E /* Starscream.framework */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.framework;
+			path = Starscream.framework;
+			remoteRef = 982EC1C21D87640E0051833E /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		982EC1C51D87640E0051833E /* Starscream iOSTests.xctest */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.cfbundle;
+			path = "Starscream iOSTests.xctest";
+			remoteRef = 982EC1C41D87640E0051833E /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		982EC1C71D87640E0051833E /* Starscream.framework */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.framework;
+			path = Starscream.framework;
+			remoteRef = 982EC1C61D87640E0051833E /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		982EC1C91D87640E0051833E /* Starscream OSXTests.xctest */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.cfbundle;
+			path = "Starscream OSXTests.xctest";
+			remoteRef = 982EC1C81D87640E0051833E /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		982EC1CB1D87640E0051833E /* Starscream.framework */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.framework;
+			path = Starscream.framework;
+			remoteRef = 982EC1CA1D87640E0051833E /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		982EC1CD1D87640E0051833E /* Starscream tvOSTests.xctest */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.cfbundle;
+			path = "Starscream tvOSTests.xctest";
+			remoteRef = 982EC1CC1D87640E0051833E /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+/* End PBXReferenceProxy section */
 
 /* Begin PBXResourcesBuildPhase section */
 		B6FA23A71C63661400AF0893 /* Resources */ = {
@@ -154,6 +272,14 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		982EC1CF1D87642E0051833E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Starscream iOS";
+			targetProxy = 982EC1CE1D87642E0051833E /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
 		B6FA23AF1C63661400AF0893 /* Debug */ = {
@@ -263,6 +389,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = com.almassapargali.PhoenixWebSocket;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 3.0;
 			};
 			name = Debug;
 		};
@@ -284,6 +411,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = com.almassapargali.PhoenixWebSocket;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 3.0;
 			};
 			name = Release;
 		};
