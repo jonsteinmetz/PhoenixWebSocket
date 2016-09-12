@@ -197,7 +197,7 @@ public final class Socket {
             switch result {
             case .success(let response):
                 self?.log("Left channel, payload:", response)
-                self?.connectedChannels.remove(channel)
+                let _ = self?.connectedChannels.remove(channel)
                 channel.status = .disconnected(nil)
             case .error(let error): // how is this possible?
                 self?.log("Failed to leave channel:", error)
